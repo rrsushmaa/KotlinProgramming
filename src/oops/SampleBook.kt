@@ -1,6 +1,6 @@
 package oops
 
-class Book (val title:String, val author: String, val publicationYear: Int, val isBorrowed: Boolean) {
+class SampleBook (val title:String, val author: String, val publicationYear: Int, val isBorrowed: Boolean) {
 
     fun borrowBook(): Boolean{
         return if(!isBorrowed)
@@ -26,12 +26,12 @@ class Book (val title:String, val author: String, val publicationYear: Int, val 
 }
 
 fun main() {
-    val myFirstBook = Book("My view on this IT world","Sushmaa R R",2030,false)
+    val myFirstBook = SampleBook("My view on this IT world","Sushmaa R R",2030,false)
     myFirstBook.borrowBook()
     myFirstBook.printBook()
     myFirstBook.returnBook()
     myFirstBook.printBook()
     //using named parameter during initialization.  Flexible to change the order of the parameter
-    val mySecondBook = Book(title="How to balance work and family",author="Sushmaa R R", isBorrowed = true, publicationYear = 2032)
+    val mySecondBook = SampleBook(title="How to balance work and family",author="Sushmaa R R", isBorrowed = true, publicationYear = 2032)
     mySecondBook.printBook()
 }
