@@ -1,0 +1,6 @@
+Hello there! Welcome to Kotlin.
+
+Kotlin is an amazing programming language which uses JVM. You will definitely gonna like Kotlin.
+Let's get started!!
+
+Kotlin is fun
