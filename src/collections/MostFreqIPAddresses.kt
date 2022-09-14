@@ -1,7 +1,7 @@
 package collections
 
 import java.io.File
-import java.util.*
+import java.util.Collections
 
 fun main() {
     val ipAddressAndCount = mutableMapOf<String, Int>()
